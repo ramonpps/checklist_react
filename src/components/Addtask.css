@@ -1,0 +1,18 @@
+.addTaskBox {
+    margin: 15px 0;
+    margin-left: 75px;
+    width: 540px;
+    display: flex;
+
+}
+
+.addTaskInput {
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    flex: 6;
+    background-color: #EDCDC2;
+    color: #893843;
+    font-size: 16px;
+}

@@ -1,0 +1,11 @@
+.taskbox{
+    background-color: #f19cbb;
+    margin: 10px;
+    padding: 3px 7px;
+    display:inline-block;
+    border-radius: 5px;
+    border: 2px solid #997A8D;
+    justify-content: space-between;
+    color:#893843;
+    align-items: center;
+}

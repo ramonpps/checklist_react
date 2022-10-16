@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+.mainsquare{
+    background-color: #fc89ac;
+    width: 700px;
+    height: 559px;
+    margin: 20px auto;
+    overflow: auto;
+    border: 5px solid #893843; 
+    padding: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.minorsquare{
+    background-color: #EDCDC2;
+    margin-top: 31px;
+    width: 680px;
+    height: 1000px;
+    overflow: auto;
+    border: 2px solid #997A8D;
+    padding: 1px;
+    border-radius: 15px; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.greeting{
+    background-color: #e68fac;
+    font-size: 18px;
+    height: 84px;
+    max-width: 690px;
+    margin-top: 10px;
+    margin-left: 397px;
+    overflow: auto;
+    border: 5px solid #893843;
+    border-radius: 20px;
+}
+p{
+    color: #893843;
+    margin-left: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+    color: #893843;
+    margin-left: 5px;
+    font-size: 60px;  
+    font-weight: bolder;
+    font-style: oblique;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    
 }
